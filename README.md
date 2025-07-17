@@ -1,3 +1,6 @@
+#This text is done on mobile phone to test git commands as my laptop suddenly broke and wont switch on anymore. I hope this works.
+
+
 # CS50\_WTC\_EXERCISES
 
 \#EXERCISES DESCRIPTION
