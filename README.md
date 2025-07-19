@@ -20,3 +20,8 @@
 8. Extensions.py: This shows a files media type based on the files name(with the extension at the end, e.g readme.txt media type is text/plain)
 9. interpreter.py: This does mathematical operations based on an expression from the user input
 10. meal.py: This tells the user whether it is time for either breakfast, lunch or dinner based on the user input's time.
+
+#WEEK2
+
+11. camel.py: Converts a string from camel case to snake case
+12. coke.py: Informs the buyer about how much money is due based on how much they insert into the coke slot machine. at the end, it tells the user the amount owed/change if any.
