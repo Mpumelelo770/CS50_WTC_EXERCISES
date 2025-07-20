@@ -25,3 +25,6 @@
 
 11. camel.py: Converts a string from camel case to snake case
 12. coke.py: Informs the buyer about how much money is due based on how much they insert into the coke slot machine. at the end, it tells the user the amount owed/change if any.
+13. twttr.py: removes vowels in a string
+14. plates.py: determines the validity of a car's number plate based on various rules(comments in script)
+15.nutrition.py: Returns the number of calories of a fruit based on user input 
