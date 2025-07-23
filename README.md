@@ -17,15 +17,28 @@ CHELLENGES
 -Diffetentiating and finding similarities between gitlab and github can be confusing sometimes.
 -Difficult to visualize how version control together with pull request work when multiple developers are working on a single project instead of just me alone. Would be interesting to work with multiple people on a single project to fully understand the ideas of branching,pull requests and merge conflicts.
 
+
+
 #PYTHON BASICS PROGRESS
 
 TAKE-AWAYS
 
--
+- Confortable with variable(integiers, string, floats, booleans).
+-Confortable working with functions(parameters, arguments, return statements, side effects, function call)
+- Confident working with conditionals. They go hand in hand with boolean statements
+- A bit confortable working with loops(for, while). Need a bit more work visualising the while loop especially infinite loops and how many iterations it is going to have.
+-Introducrd to data types (Lists, Dictionaries, Tuples)
+-Learned about the main function
+-Learned basic VScode commands on working with files( mkdir, cd, rmdir, code something.py etc)
+
+
 
 CHALLENGES
 
--
+- Need to work more on higher order functions.
+- Need to get used to reading documentation. Learned that the print functions has more parameters inside of it from documentation e.g \n to move to the next line as one of the default parameters of the print statement.
+-Understanding how methods work on objects. i.e string methods, list methods etc
+
 
 
 # CS50\_WTC\_EXERCISES
@@ -40,6 +53,7 @@ WEEK0
 4. Einstein.py: Uses E = mc^2 to calculate the energy based on a given mass.
 5. Tip.py: This calculates the tip to be given in a restaurant based on the bill and tip percentage based on the bill.
 
+
 WEEK1
 
 6. deep.py: This programme says YES if someone types 42/forty-two or forty two.Otherwise NO.
@@ -47,6 +61,7 @@ WEEK1
 8. Extensions.py: This shows a files media type based on the files name(with the extension at the end, e.g readme.txt media type is text/plain)
 9. interpreter.py: This does mathematical operations based on an expression from the user input
 10. meal.py: This tells the user whether it is time for either breakfast, lunch or dinner based on the user input's time.
+
 
 WEEK2
 
