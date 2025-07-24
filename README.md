@@ -30,7 +30,10 @@ TAKE-AWAYS
 -Introducrd to data types (Lists, Dictionaries, Tuples)
 -Learned about the main function
 -Learned basic VScode commands on working with files( mkdir, cd, rmdir, code something.py etc)
-
+-Learned about handling errors using the (try-except-else-pass statements).
+-Leaned the different types of errors we can come across in python.
+-Learned that i can raise my own errors by using the raise statements.
+-Introduced to debugging using VScode(breakpoints) and associated controls(stepping over, stepping into) to visually see how the code works and easily deal with logic errors. Syntax errors are the simplest to deal with.
 
 
 CHALLENGES
@@ -38,6 +41,7 @@ CHALLENGES
 - Need to work more on higher order functions.
 - Need to get used to reading documentation. Learned that the print functions has more parameters inside of it from documentation e.g \n to move to the next line as one of the default parameters of the print statement.
 -Understanding how methods work on objects. i.e string methods, list methods etc
+-Some more practice on debugging is needed.
 
 
 
