@@ -9,6 +9,8 @@ TAKE-AWAYS
 -cloning a repository (git clone) and creating side branches(git branch ...). switching between branches(git checkout) and merging side branches with main branch(git merge side-branch).
 -pushing a side/feature branch to the remote (gitlab/github) and creating merge requests.
 -Creating issues, merge requests, labels,assigning issues and merge request.
+-Introduction into CI/CD. This has to do with collaborative work where for each push, automated tests are performed that are specified in the YAML file. Configuring a runner is required for the tests/jobs inside of the YAML file to be executed. This process can also be automated without configuring any yaml files and runners by just doing the AutoDevOps automated testing.
+-Some introduction into the various roles in the software engineering industry. e.g DevOps engineers.
 
 CHELLENGES
 
@@ -16,6 +18,7 @@ CHELLENGES
 -Understanding the difference between the main/master, pre-production and production/release branches in gitlab.
 -Diffetentiating and finding similarities between gitlab and github can be confusing sometimes.
 -Difficult to visualize how version control together with pull request work when multiple developers are working on a single project instead of just me alone. Would be interesting to work with multiple people on a single project to fully understand the ideas of branching,pull requests and merge conflicts.
+-Need more practical work to fully grasp the concencepts of continuos intergration(CI) and continuos delivery/deployment(CD)
 
 
 
@@ -34,7 +37,9 @@ TAKE-AWAYS
 -Leaned the different types of errors we can come across in python.
 -Learned that i can raise my own errors by using the raise statements.
 -Introduced to debugging using VScode(breakpoints) and associated controls(stepping over, stepping into) to visually see how the code works and easily deal with logic errors. Syntax errors are the simplest to deal with.
-
+-Introduction into modules and libraries. We have build in modules in python, we can create our own or we can get from the internet using the pip install command on the command line. We can also create our packages/library. 
+-Know didference between a a library/package, module and a function.
+-Introduction into API's and making API requests using the python request library
 
 CHALLENGES
 
@@ -42,7 +47,8 @@ CHALLENGES
 - Need to get used to reading documentation. Learned that the print functions has more parameters inside of it from documentation e.g \n to move to the next line as one of the default parameters of the print statement.
 -Understanding how methods work on objects. i.e string methods, list methods etc
 -Some more practice on debugging is needed.
-
+-Need more practice on working with API,s and requesting different data from different databases/servers.Also need to grasp more of how the requests are stored inside of the JSON file and how i can access and iterate through some keys and values in the JSON file.
+-Must know the real difference between API, server and a database.
 
 
 # CS50\_WTC\_EXERCISES
@@ -74,3 +80,10 @@ WEEK2
 13. twttr.py: removes vowels in a string
 14. plates.py: determines the validity of a car's number plate based on various rules(comments in script)
 15.nutrition.py: Returns the number of calories of a fruit based on user input 
+
+WEEK3
+
+16.fuel.py: Display the fuel as a percentage based on users input as a fraction.
+17. taqueria.py: Displays the total bill to be payed based on user selected food.
+18.grocery.py: A program that promots the user for a grocery list and outputs the number and the item name in alphabetical order. If for example the user inputs bananas twice on the grocery list, the output will be 2 bananas and other groceries in alphabetical order.
+19. Outdated.py: This program takes a date formated like (m/d/y or month day, year) amd outputs the date formatted differently like (y/d/month)
