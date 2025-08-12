@@ -68,7 +68,7 @@ def generate_integer(n):
 
 
 
-    return score
+    return f"Score:{score}/10"
 
 
 

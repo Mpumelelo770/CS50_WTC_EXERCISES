@@ -26,9 +26,10 @@ def level():
 
 def play(numbers):
     correct = random.choice(numbers)
-
+    guesses = 1
     while True:
         try:
+           
             guess = int(input("Guess: "))
             prev = guess
 
@@ -39,7 +40,8 @@ def play(numbers):
             elif guess > correct:
                 print("Too large!")
             else:
-                return "Just right!"
+                return f"Just right!, Guesses = {guesses}"
+            guesses += 1
 
 
         except ValueError:

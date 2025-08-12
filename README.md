@@ -40,7 +40,11 @@ TAKE-AWAYS
 -Introduced to debugging using VScode(breakpoints) and associated controls(stepping over, stepping into) to visually see how the code works and easily deal with logic errors. Syntax errors are the simplest to deal with.
 -Introduction into modules and libraries. We have build in modules in python, we can create our own or we can get from the internet using the pip install command on the command line. We can also create our packages/library. 
 -Know didference between a a library/package, module and a function.
--Introduction into API's and making API requests using the python request library
+-Introduction into APIs and making API requests using the python request library
+-Gotten introduction into unit testing where testing files are used to test certain units of code. The units of code in this case are the individual functions inside of our program to be tested. 
+-Unit testing is useful in that one doesnt have to perform the tests manually by checking the output for a given input.
+-This taught me about structuring my code in a way that is possible to perform unit tests(usually by separating specific elements into functions).It is also important to note that the test files together with the programs to be tested should be in the same folder.
+-One should be careful with exception handling when dealing with unit test. It is also very important to keep the type of inputs amd outputs when performing unit tests.
 
 CHALLENGES
 
@@ -50,13 +54,14 @@ CHALLENGES
 -Some more practice on debugging is needed.
 -Need more practice on working with API,s and requesting different data from different databases/servers.Also need to grasp more of how the requests are stored inside of the JSON file and how i can access and iterate through some keys and values in the JSON file.
 -Must know the real difference between API, server and a database.
+-Should look further into the practises of performing unit tests. That is, what types of test should one consider for specific cases to exhaust all the edge cases.
 
 
 # CS50\_WTC\_EXERCISES
 
 EXERCISES DESCRIPTION
 
-WEEK0
+WEEK0: Functions and Variables
 
 1. Indoor.py: This program converts a user inputted sentence into lower case
 2. playback.py: This replaces any spaces in a given sentence into triple dots
@@ -65,7 +70,7 @@ WEEK0
 5. Tip.py: This calculates the tip to be given in a restaurant based on the bill and tip percentage based on the bill.
 
 
-WEEK1
+WEEK1: Conditionals
 
 6. deep.py: This programme says YES if someone types 42/forty-two or forty two.Otherwise NO.
 7. bank.py: This program gives someone some compensation based on how the bank worker greets the customer. If greeted with "hello", the customer gets nothing, if greeted with a work that starts with an "h", they get $20. Anything else they get $100. The greeting must be at the start of the sentence.
@@ -74,7 +79,7 @@ WEEK1
 10. meal.py: This tells the user whether it is time for either breakfast, lunch or dinner based on the user input's time.
 
 
-WEEK2
+WEEK2: Loops
 
 11. camel.py: Converts a string from camel case to snake case
 12. coke.py: Informs the buyer about how much money is due based on how much they insert into the coke slot machine. at the end, it tells the user the amount owed/change if any.
@@ -82,9 +87,22 @@ WEEK2
 14. plates.py: determines the validity of a car's number plate based on various rules(comments in script)
 15.nutrition.py: Returns the number of calories of a fruit based on user input 
 
-WEEK3
+WEEK3: Exceptions
 
 16.fuel.py: Display the fuel as a percentage based on users input as a fraction.
 17. taqueria.py: Displays the total bill to be payed based on user selected food.
 18.grocery.py: A program that promots the user for a grocery list and outputs the number and the item name in alphabetical order. If for example the user inputs bananas twice on the grocery list, the output will be 2 bananas and other groceries in alphabetical order.
 19. Outdated.py: This program takes a date formated like (m/d/y or month day, year) amd outputs the date formatted differently like (y/d/month)
+
+WEEK4: Libraries
+
+20. Emojize.py: This program uses the emoji library to convert certain text in a string(eg thumbs up) into emojis
+21. Figlet.py: This program uses the pyfiglet library/module to converts simple text into big/bold text of a certain font specified by the user or a random font provided the user doesnt specify the font.
+22.Adieu.py: This program uses the inflect library to say a phrase like (adieu, adieu to xxxx) where xxxx is the names specified by the user. Adieu means goodbye in french and therefore the program is saying goodbye to whoever name(s) is/are specifies by the user.
+23.game.py: This program uses the random module to generate a random number between 1 and the number specifies by the user. The user is then asked to guess the randomly generated number until theh get it right.
+24. professor.py: This program asks the user for a level(1,2 or 3) and gives the user 10 randomly generated mathematical operation where the level chosed indicates the number of gidits the user will be computing. e.g level 1 means the game will generate inly single digit addition operationg (1+1; 3+4 #etc)
+25. bitcoin.py: Thia program uses the request module to make crypto API request about the information on bitcoin. The user uses terminal arguments to specify the number of bitcoins they would like to purchase where the program then generate the total value of the bitcoins to be purchased using information from the bitcoin json file.
+
+WEEK5: Unit Test
+
+-All the activities for this week were focused on performing unit test on the twttr.py, bank.py, plates.py and fuel.py where each of these programs were modified for ease of unit testing. The pytest library was used to perform some of the test(especially when dealing with errors)

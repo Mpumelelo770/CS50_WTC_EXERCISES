@@ -1,3 +1,5 @@
+
+
 def main():
     greeting = input("Greeting:")
     spaceless = greeting.strip().lower()
