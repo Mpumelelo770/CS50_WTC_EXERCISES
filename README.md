@@ -45,6 +45,9 @@ TAKE-AWAYS
 -Unit testing is useful in that one doesnt have to perform the tests manually by checking the output for a given input.
 -This taught me about structuring my code in a way that is possible to perform unit tests(usually by separating specific elements into functions).It is also important to note that the test files together with the programs to be tested should be in the same folder.
 -One should be careful with exception handling when dealing with unit test. It is also very important to keep the type of inputs amd outputs when performing unit tests.
+-Did basics of file I/O. I am confortable with opening files, reading from them and getting the information requred using the .reader function. Able to write into files using the .writer function.
+-Did basics of reading and writing on csv files and using the csv library to correctly format my csv files when reading and writing on them.
+-Did basics of the PIL(pillow) library which works with opening and manipulating images.
 
 CHALLENGES
 
@@ -55,6 +58,7 @@ CHALLENGES
 -Need more practice on working with API,s and requesting different data from different databases/servers.Also need to grasp more of how the requests are stored inside of the JSON file and how i can access and iterate through some keys and values in the JSON file.
 -Must know the real difference between API, server and a database.
 -Should look further into the practises of performing unit tests. That is, what types of test should one consider for specific cases to exhaust all the edge cases.
+-Working with the pillow library on my phone is almost impossible as pydroid doesnt open images correctly instead showing cryptic information that is difficult to understand. 
 
 
 # CS50\_WTC\_EXERCISES
@@ -106,3 +110,11 @@ WEEK4: Libraries
 WEEK5: Unit Test
 
 -All the activities for this week were focused on performing unit test on the twttr.py, bank.py, plates.py and fuel.py where each of these programs were modified for ease of unit testing. The pytest library was used to perform some of the test(especially when dealing with errors)
+
+
+WEEK6: File I/O
+
+-Lines: This program counts the number of lines of code in a python file. It excludes comments and blank lines but includes docstrings
+-Pizza: This program takes as input a csv file with pizza menus and prices. It then provide as input a table of the menu formatted in a more humanly readable way.
+-Scourgify: This program takes in as input a csv file formatted as ("second_name,first_nam", last name) and outputs a csv file formatted as (first_name,second_name,last_name)
+-shirt: This program taked in a cs50 shirt as an input and overlay that shirt on a persons picture which is then produced as an output.
