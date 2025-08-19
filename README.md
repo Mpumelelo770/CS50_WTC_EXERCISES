@@ -48,6 +48,8 @@ TAKE-AWAYS
 -Did basics of file I/O. I am confortable with opening files, reading from them and getting the information requred using the .reader function. Able to write into files using the .writer function.
 -Did basics of reading and writing on csv files and using the csv library to correctly format my csv files when reading and writing on them.
 -Did basics of the PIL(pillow) library which works with opening and manipulating images.
+-Did regular expressions basics. Confortable using the re library and associated functions(search,sub,findall)
+-Confortable using valitation PyPi packages to validate user inputs without having to create my own patterns.
 
 CHALLENGES
 
@@ -59,6 +61,7 @@ CHALLENGES
 -Must know the real difference between API, server and a database.
 -Should look further into the practises of performing unit tests. That is, what types of test should one consider for specific cases to exhaust all the edge cases.
 -Working with the pillow library on my phone is almost impossible as pydroid doesnt open images correctly instead showing cryptic information that is difficult to understand. 
+-I found that expressing a range of numbers to validate can be quiet tricky when working with regular expressions. These need attention to detail to correctly format. But overrall they are satisfyingly challenging. As with every topic, i need some more practise in the form of more activities to fully grasp the concepts of regular expressions and ex0lore some more functions that come with the re library/module. Need to also checkout more PyPI validators functions to validate common inputs without having to figure out the validation pattern on my own.
 
 
 # CS50\_WTC\_EXERCISES
@@ -118,3 +121,13 @@ WEEK6: File I/O
 -Pizza: This program takes as input a csv file with pizza menus and prices. It then provide as input a table of the menu formatted in a more humanly readable way.
 -Scourgify: This program takes in as input a csv file formatted as ("second_name,first_nam", last name) and outputs a csv file formatted as (first_name,second_name,last_name)
 -shirt: This program taked in a cs50 shirt as an input and overlay that shirt on a persons picture which is then produced as an output.
+
+
+WEEK7: Regular expressions
+
+-numb3rs.py: This program validate an ip address which should be formatted as #.#.#.# where the "#" represents a number between 0 and 255
+-watch.py: This program extracts a youtube url from a long HTML embedded url and shorten it using the seach function inside the re module
+-working.py: This program converts the 22hr standard time to the 24hr format. e.g 9:00 AM to 5:00 PM is converted to 09:00 to 17:00. This uses the search function in re.
+-um.py: This program counts the number of um's in a string using another re function called findall
+-response.py: This program uses a PyPi package (validator-collection') to validate whether an email is valid or not without having to create ones own pattern.
+
