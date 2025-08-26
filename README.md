@@ -50,6 +50,7 @@ TAKE-AWAYS
 -Did basics of the PIL(pillow) library which works with opening and manipulating images.
 -Did regular expressions basics. Confortable using the re library and associated functions(search,sub,findall)
 -Confortable using valitation PyPi packages to validate user inputs without having to create my own patterns.
+-Introduction into classes. I am a bit confortable with creating classes and their need. I also understand what objects are and how we can create methods(inside the class) to operate on the object. Also dealing woth validation using the setter function. 
 
 CHALLENGES
 
@@ -61,8 +62,9 @@ CHALLENGES
 -Must know the real difference between API, server and a database.
 -Should look further into the practises of performing unit tests. That is, what types of test should one consider for specific cases to exhaust all the edge cases.
 -Working with the pillow library on my phone is almost impossible as pydroid doesnt open images correctly instead showing cryptic information that is difficult to understand. 
--I found that expressing a range of numbers to validate can be quiet tricky when working with regular expressions. These need attention to detail to correctly format. But overrall they are satisfyingly challenging. As with every topic, i need some more practise in the form of more activities to fully grasp the concepts of regular expressions and ex0lore some more functions that come with the re library/module. Need to also checkout more PyPI validators functions to validate common inputs without having to figure out the validation pattern on my own.
-
+-I found that expressing a range of numbers to validate can be quiet tricky when working with regular expressions. These need attention to detail to correctly format. But overrall they are satisfyingly challenging. As with every topic, i need some more practise in the form of more activities to fully grasp the concepts of regular expressions and explore some more functions that come with the re library/module. Need to also checkout more PyPI validators functions to validate common inputs without having to figure out the validation pattern on my own. 
+-When working with classes, i dont yet know how to decide on whether to use classes or functions. Also the diffent categories of methods inside the classes confuse me a bit(instancemethod, classmethod, @method).
+Again,i think the most important this with classes and coding in general is to get used to forming the habit of reading and understanding documentation(especially with function/class  parameters/arguments).
 
 # CS50\_WTC\_EXERCISES
 
@@ -129,5 +131,12 @@ WEEK7: Regular expressions
 -watch.py: This program extracts a youtube url from a long HTML embedded url and shorten it using the seach function inside the re module
 -working.py: This program converts the 22hr standard time to the 24hr format. e.g 9:00 AM to 5:00 PM is converted to 09:00 to 17:00. This uses the search function in re.
 -um.py: This program counts the number of um's in a string using another re function called findall
--response.py: This program uses a PyPi package (validator-collection') to validate whether an email is valid or not without having to create ones own pattern.
+-response.py: This program uses a PyPi package (validator-collection') to validate whether an email is valid or not without having to create ones own pattern and regex.
+
+WEEK8: OBject Oriented Programming(OOP)
+
+-seasons.py: This program uses the imported datetime class to calculate the difference between any previous time to the current time(can be used to calcukate the age if a person). It then ouputs that age in words converted to minutes.
+-jar.py: This program creates a jar with a certain capacity where cookies can be puylt or removed from the jar. at any given time, one can check the number of cookies inside of the jar after a combination of adding+removing cookies from the jar.
+-shirtificate.py: This program uses the fpdf2 class to create a CS50 pdf certificate with a CS50 shirt. A text of the format(Mpumelelo took CS50) is then overlayed onto the t-shirt where the cerficate is then saved as a pdf file.
+
 
